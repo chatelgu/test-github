@@ -1,8 +1,8 @@
 all: helloworld
 
 clean:
-	rm helloworld *~
+	rm -f helloworld *~ */*~
 
-helloworld: main.c
-	gcc -o helloworld main.c
+helloworld: src/main.c
+	gcc -o helloworld src/main.c
 
