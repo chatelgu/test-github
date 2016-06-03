@@ -12,6 +12,6 @@ int fibo(int i) {
 int main(int argc, char** argv) {
   int i = 5;
   printf("Hello world !!!\n");
-  printf("compute fibonacci(%i): %i\n", fibo(i), i); 
+  printf("compute fibonacci(%i): %i\n", i, fibo(i)); 
   exit(0);
 }
